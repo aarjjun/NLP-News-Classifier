@@ -2,11 +2,16 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import joblib
+import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 import re
 import plotly.graph_objs as go
+
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 # Load pre-trained model and vectorizer
 model = joblib.load('news_classifier_model.pkl')
