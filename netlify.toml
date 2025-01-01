@@ -4,4 +4,6 @@
 
 [functions]
   directory = "netlify-functions"
-  runtime = "python3.8"
+
+  [functions.runtime]
+    name = "python3.8"
