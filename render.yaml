@@ -3,6 +3,6 @@ services:
     name: news-prediction-app
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn dashboard:server"
+    startCommand: "gunicorn dashboard:app"
     branch: main
     autoDeploy: true
