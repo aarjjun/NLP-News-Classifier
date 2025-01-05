@@ -1,5 +1,0 @@
-# Ignore virtual environment files/folders
-env/
-venv/
-ENV/
-.vercel
