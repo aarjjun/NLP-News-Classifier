@@ -1,9 +1,0 @@
-[build]
-  command = "docker build -t dash-app . && docker run -p 8050:8050 dash-app"
-  publish = "public"
-
-[functions]
-  directory = "netlify-functions"
-
-  [functions.runtime]
-    name = "python3.8"
