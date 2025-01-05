@@ -31,7 +31,7 @@ Before diving into the project, ensure you have these prerequisites set up:
 Start by cloning the project from GitHub:
 
 ```bash
-git clone https://github.com/yourusername/NLP-News-Classifier.git
+git clone https://github.com/aarjjun/NLP-News-Classifier.git
 cd NLP-News-Classifier
 
 ```
