@@ -20,6 +20,10 @@ This project brings together **web scraping** and **data visualization** to show
 ## 🔧 **Getting Started** 🔧
 
 Follow the simple steps below to get this powerful project running on your local machine. No hassle, just pure magic!
+### **Using Google Collab**
+- Just Download WebScrapingProject.ipynb only and run it using Collab.
+- But for Detailed visualisation in Web follow the following steps :
+
 
 ### 🎯 **Prerequisites**
 Before diving into the project, ensure you have these prerequisites set up:
